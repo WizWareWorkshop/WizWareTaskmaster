@@ -1,0 +1,4 @@
+# This file is not used for GitHub Pages deployment.
+# It can be used for other hosting providers.
+runConfig:
+  maxInstances: 1
