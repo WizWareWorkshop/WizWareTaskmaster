@@ -67,12 +67,3 @@ This project includes a GitHub Actions workflow that automates deployment to Git
     *   Under "Build and deployment," set the **Source** to **GitHub Actions**.
 3.  **View Your Site**: Once the action completes successfully, your site will be live at `https://wizwareworkshop.github.io/WizWareTaskmaster/`.
 
-### 6. Using a Custom Domain (e.g., `wizware.org/taskmaster`)
-
-To serve your project from a subpath on your custom domain, you need to have `wizware.org` already pointing to GitHub Pages. This is typically done by having a special repository named `WizWareWorkshop.github.io` with your custom domain configured in its settings.
-
-If that is set up, GitHub automatically serves other repositories from your account as subpaths. For example, the `WizWareTaskmaster` repository will automatically be available at `wizware.org/WizWareTaskmaster`.
-
-1.  **Main Domain Setup**: Ensure your `wizware.org` domain is correctly configured in the settings of your `WizWareWorkshop.github.io` repository.
-2.  **Deploy This Project**: Follow the deployment steps above.
-3.  **Access Your Site**: Once deployed, you should be able to access your site at `http://wizware.org/WizWareTaskmaster`.
